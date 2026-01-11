@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "ejs": "^3.1.10",
+    "express": "^5.2.1",
+    "init": "^0.1.2",
+    "mysql": "^2.18.1"
+  },
+  "name": "js-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IronClad42/Sample-Node-Js-Project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IronClad42/Sample-Node-Js-Project/issues"
+  },
+  "homepage": "https://github.com/IronClad42/Sample-Node-Js-Project#readme",
+  "keywords": [],
+  "description": ""
+}

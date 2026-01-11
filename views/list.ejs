@@ -1,0 +1,24 @@
+<h1>User List <a href="/">Home</a></h1>
+
+<table width="30%" border="1">
+    <tr>
+        <th>No.</th>
+        <th>Name</th>
+        <th>Phone No.</th>
+        <th>Email</th>
+        <th>Action</th>
+    </tr>
+
+    <% info.map((row , i) => { %>
+        <tr>
+            <td><%-i + 1 %></td>
+            <td><%-row.name%></td>
+            <td><%-row.phone%></td>
+            <td><%-row.email%></td>
+            <td style="white-space: nowrap;">
+                <button><a href="/edit/<%-row.users_id%>">Edit</a></button>
+                <button><a href="/delete/<%-row.users_id%>">Delete</a></button>
+            </td>
+        </tr>
+    <% }) %>
+</table>
